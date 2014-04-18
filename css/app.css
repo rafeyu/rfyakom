@@ -1,0 +1,392 @@
+body{
+	margin:0px;
+	background-color: #684749;
+}
+h2{
+	padding: 0;
+	margin:0;
+}
+
+#container{
+	width: 100%;
+	min-height: 69px;
+}
+.navbar-container{
+	width: 1042px;
+	margin: auto;
+	background: url('../images/navbar.png');
+}
+.navbar {
+	width: 100%;
+	min-height: 69px;
+	background: url('../images/navbar.png');
+}
+
+.logo {
+	position: absolute;
+	/*float: left;*/
+}
+
+.navigasi {
+	padding: 0px;
+	float: right;
+}
+.menu{
+	font-family: "Museo 700",regular;
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+/*ini jos*/
+.menu li{
+	float: left;
+}
+.menu li a{
+	text-decoration: none;
+	padding-left: 20px;
+	padding-top: 26px;
+	padding-right: 20px;
+	padding-bottom: 22px;
+	display: inline-block;
+}
+.menu li:hover a{
+	text-decoration: none;
+	padding-top: 26px;
+	padding-left: 20px;
+	padding-bottom: 22px;
+	padding-right: 20px;
+	background-color: #ccc;
+}
+
+.search-button {
+	width: 77px;
+	min-height: 69px;
+	background-color: #684749;
+	float: right;
+}
+
+.margin-center{
+	margin:auto;
+}
+.container {
+	margin: auto;
+	width: 1211px;
+	height: 667px;
+}
+.bg {
+	margin: auto;
+	width: 1211px;
+	height: 667px;
+	background: url('../images/bg.png');
+	background-position: top 20%;
+}
+
+.bg-child {
+	padding-left: 130px;
+	padding-right: 140px;
+	padding-top: 65px;
+}
+.right-element{
+	width: 320px;
+	background-color: #ffffff;
+	float: right;
+}
+.form {
+	width: 295px;
+	background-color: #ffffff;
+	float: right;
+	/*padding-right: 0;*/
+	padding-top: 40px;
+	padding-left: 25px;
+}
+.login {
+	margin-top: 15px;
+}
+
+.form h2 {
+	color: #5e3333;
+}
+.form form input {
+	margin-top: 20px;
+	border: 0;
+	background-color: #e4e4e4;
+}
+
+.loginbox {
+	height: 45px;
+	width: 240px;
+	padding: 10px 15px 0px 15px;
+}
+.login form .submit {
+	/*float: right;*/
+	/*height: 40px;
+	widows: 95px;*/
+	margin-right: 25px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-top: 10px;
+	background-color: #684749;
+}
+
+.flo-left {
+	float: left;
+}
+
+.flo-right {
+	float: right;
+}
+
+.stats-mhs {
+	margin-top: 25px;
+}
+
+.stats-mhs a{
+	font-size: 13px;
+}
+
+.banner-kecil {
+	margin-top: 30px;
+	float: right;
+}
+
+.tkob {
+	float: left;
+	margin-top: 30px;
+}
+.tkob span.slogan{
+	font-family:"Times New Roman", Times, serif;
+	color: #684749;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+.tkob a {
+	display: block;
+	float: left;
+	padding: 20px 30px 20px 30px;
+	margin-top: 90px;
+	background-color: #4e3032;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+.mc {
+	margin-top: 10px;
+	float: right;
+	background-color: #ffffff;
+	width: 930px;
+	/*min-height: 103px;*/
+}
+
+.main-menu{
+	background-color: #462c2e;
+	/*width: 930px;*/
+	/*height: 100px;*/
+	float: left;
+	margin: auto;
+}
+.menu-content {
+	font-family: "Museo 700",regular;
+	font-size: 15px;
+	margin: auto;
+	padding: 0px;
+	list-style: none;
+}
+
+.menu-content li{
+	float: left;
+	/*margin: auto;*/
+}
+.menu-content li a{
+	text-decoration: none;
+	padding-left: 25.8px;
+	padding-top: 30px;
+	padding-right: 25px;
+	padding-bottom: 30px;
+	display: inline-block;
+	color: #ffffff;
+}
+
+.main-content {
+	/*padding-top: 30px;*/
+	float: right;
+	margin-right: 140px;
+	width: 930px;
+	height: 650px;
+	background-color: #684749;
+}
+
+.title-top-content {
+	height: 70px;
+	width: 100%;
+	padding-left: 20px;
+	/*margin-bottom: 13px;*/
+	/*background-color: #ffffff;*/
+}
+
+.title-top-content span,.title-bottom-content span{
+	color: #684749;
+	font-weight: bold;
+	font-size: 23px;
+}
+
+.ttc-baru {
+	/*margin-top: 30px;*/
+	background-color: #e3dad0;
+}
+
+.con-content {
+	min-height: 10px;
+	width: 100%;
+	background-color: #ffffff;
+}
+a.more{
+	font-weight: bold;
+	float: left;
+	color: #684749;
+	text-decoration: none;
+}
+.list-content {
+	background-color: #ffffff;
+	margin-top: 0;
+	list-style-image: url('../images/icon-list.png');
+}
+
+.list-content li{
+	margin-bottom: 40px;
+	/*margin-top: 10px;*/
+}
+
+.list-content li a{
+	color: #684749;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	/*margin-bottom: 40px;*/
+}
+
+.info-kampus {
+	float: left;
+	width: 300px;
+	min-height: 70px;
+	padding-top: 30px;
+	background-color: #ffffff;
+	/*padding-right: 5px;*/
+}
+
+.berita-terbaru {
+	padding-top: 30px;
+	float: left;
+	/*width: 300px;*/
+	height: 70px;
+}
+.berita-terbaru span{
+	margin-bottom: 30px;
+}
+
+.brt-terbaru-con{
+	/*background-color: #ffffff;*/
+	width: 311px;
+	min-height: 100px;
+	float: left;
+}
+/*icon*/
+.icon-berita-baru {
+	background-image: url('../images/icon-berita-baru.png');
+	width: 19px;
+	height: 35px;
+}
+
+.margin-r-5 {
+	margin-right: 5px;
+}
+
+.berita {
+	margin-top: 30px;
+	padding-top: 15px;
+	/*padding-left: 5px;*/
+	/*margin-left: 5px;*/
+}
+.tgl {
+	/*margin-left: 20px;*/
+	color: #BEC4B5;
+}
+.judul-berita {
+	color: #684749;
+}
+
+.block-berita {
+	margin-left: 20px;
+	width: 291px;
+}
+
+.award-container {
+	float: left;
+	width: 100%;
+	height: 160px;
+}
+.award-title {
+	height: 50px;
+}
+.award{
+	font-weight: bold;
+	font-size: 24px;
+}
+/*ini isi award*/
+.award-content{
+	margin: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.award-content li{
+	display: inline;
+}
+.award-content li img{
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 22px;
+}
+.text-center{text-align: center;}
+
+div.center {
+	display: block;
+	text-align: center;
+}
+
+.bottom-content {
+	width: 100%;
+	min-height: 500px;
+	background-color: #ffffff;
+}
+.bc-column {
+	width: 30%;
+	float: left;
+}
+
+.bottom-border{
+	border-left: solid;
+	top: 50%;
+    bottom: 0;
+}
+
+.title-bottom-content {
+	height: 65px;
+	width: 100%;
+	margin: 0;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+}
+
+.link {
+	list-style: none;
+}
+.link li {
+	margin-bottom: 20px
+}
