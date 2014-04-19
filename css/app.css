@@ -66,6 +66,11 @@ h2{
 	float: right;
 }
 
+.search-button img {
+	margin-left: 18px;
+	margin-top: 18px;
+}
+
 .margin-center{
 	margin:auto;
 }
