@@ -120,8 +120,12 @@ h2{
 
 .loginbox {
 	height: 45px;
-	width: 240px;
+	width: 200px; /*240*/
 	padding: 10px 15px 0px 15px;
+}
+.icon-loginbox {
+	padding: 22px 15px 14px 6px;
+	background-color: #e4e4e4;
 }
 .login form .submit {
 	/*float: right;*/
