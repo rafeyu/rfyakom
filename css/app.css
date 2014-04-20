@@ -6,6 +6,9 @@ h2{
 	padding: 0;
 	margin:0;
 }
+p{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
 
 #container{
 	width: 100%;
@@ -257,6 +260,7 @@ h2{
 	color: #684749;
 	font-weight: bold;
 	font-size: 23px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .ttc-baru {
@@ -265,7 +269,7 @@ h2{
 }
 
 .con-content {
-	min-height: 10px;
+	height: 357px;
 	width: 100%;
 	background-color: #ffffff;
 }
@@ -273,6 +277,7 @@ a.more{
 	font-weight: bold;
 	float: left;
 	color: #684749;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	text-decoration: none;
 }
 .list-content {
@@ -291,7 +296,12 @@ a.more{
 	font-weight: bold;
 	font-size: 20px;
 	text-decoration: none;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	/*margin-bottom: 40px;*/
+}
+
+.list-content li h2 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .info-kampus {
@@ -337,13 +347,30 @@ a.more{
 	/*margin-left: 5px;*/
 }
 .tgl {
+	font-family: "Museo",regular;
 	/*margin-left: 20px;*/
 	color: #BEC4B5;
 }
 .judul-berita {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: #684749;
 }
 
+.pagination {
+	width: 100%;
+	height: 15px;
+	float: right;
+}
+.pagination a.active {
+	float: right;
+	padding: 15px 0px 0px 0px;
+	background-color: #684749;
+}
+.pagination a.inactive {
+	float: right;
+	padding: 15px 0px 0px 0px;
+	background-color: #684749;
+}
 .block-berita {
 	margin-left: 20px;
 	width: 291px;
@@ -359,6 +386,7 @@ a.more{
 	height: 50px;
 }
 .award{
+	font-family: "Museo",regular;
 	font-weight: bold;
 	font-size: 24px;
 }
@@ -387,7 +415,7 @@ div.center {
 
 .bottom-content {
 	width: 100%;
-	min-height: 500px;
+	min-height: 520px;
 	background-color: #ffffff;
 }
 .bc-column {
@@ -424,17 +452,19 @@ div.center {
 }
 .address p{
 	color: #ffffff;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	text-align: right;
 }
 
 .footer {
 	float: right;
 	width: 930px;
+	margin-right: 140px;
 }
 .footer span{
-	/*margin: 0;*/
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	/*margin-right: 140px;*/
 	color: #ffffff;
-	font-weight: bold;
-	text-align: center;
+	/*text-align: center;*/
+	margin-left: 25%;
 }
