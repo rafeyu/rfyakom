@@ -20,6 +20,7 @@ p{
 	background: url('../images/navbar.png');
 }
 .navbar {
+	/*position: absolute;*/
 	width: 100%;
 	min-height: 69px;
 	background: url('../images/navbar.png');
@@ -85,6 +86,7 @@ p{
 	height: 667px;
 }
 .bg {
+	/*margin-top: 49px;*/
 	margin: auto;
 	width: 1211px;
 	height: 667px;
@@ -93,6 +95,7 @@ p{
 }
 
 .bg-child {
+	/*margin: 49px auto auto auto;*/
 	padding-left: 130px;
 	padding-right: 140px;
 	padding-top: 65px;
@@ -287,7 +290,7 @@ a.more{
 }
 
 .list-content li{
-	margin-bottom: 40px;
+	margin-bottom: 25px;
 	/*margin-top: 10px;*/
 }
 
@@ -432,8 +435,9 @@ div.center {
 
 .bottom-content {
 	width: 100%;
-	min-height: 520px;
+	min-height: 450px;
 	background-color: #ffffff;
+	padding-top: 20px;
 }
 .bc-column {
 	width: 30%;
@@ -441,9 +445,12 @@ div.center {
 }
 
 .bottom-border{
-	border-left: solid;
-	top: 50%;
-    bottom: 0;
+	/*border-left: solid;*/
+	/*top: 50%;*/
+    /*bottom: 0;*/
+    /*background:url('../images/border.png') right left no-repeat;*/
+    border-left: solid #BEC4B5 0.5px;
+    border-right: solid #BEC4B5 0.5px;
 }
 
 .title-bottom-content {
@@ -460,7 +467,7 @@ div.center {
 	list-style: none;
 }
 .link li {
-	margin-bottom: 20px
+	margin-bottom: 10px;
 }
 .address {
 	float: right;
